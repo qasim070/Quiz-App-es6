@@ -40,6 +40,7 @@ let fetchQues = () => {
         questionDiv.innerHTML = que.question;
         let textNode = document.createTextNode(que.options)
         answersDiv.innerHTML = createLi.appendChild(textNode)
+        console.log(que.question)
     })
     qNo.innerHTML = `Q 0${++quesNo}. &nbsp;`;
     // questionDiv.innerText("aa")
